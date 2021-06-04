@@ -9,7 +9,7 @@ web.rb -> script principal para accionar todos los métodos, generando un archiv
 request.rb -> contiene el metodo GET request de la API
 builder.rb -> lógica de filtrado de información de API y estructura html del documento final
 
-# Constructed with
+## Constructed with
 
 Ruby 2.5.3
 HMTL 5

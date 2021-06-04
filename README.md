@@ -8,8 +8,7 @@ Este proyecto tiene sólo la rama main, que contiene los scripts:
 web.rb -> script principal para accionar todos los métodos, generando un archivo index.html
 request.rb -> contiene el metodo GET request de la API
 builder.rb -> lógica de filtrado de información de API y estructura html del documento final
-
+bonus.rb -> pregunta bonus de la prueba
 ## Constructed with
 
-Ruby 2.5.3
-HMTL 5
+Ruby 2.5.3, HMTL 5

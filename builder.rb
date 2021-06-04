@@ -5,7 +5,7 @@ def rover_images(data)
     tab = "\t"*6
     img_properties = 'class="container pt-4 pb-4"'
     
-    data["photos"].each do |e|
+    data.each do |e|
         e.each {|k, v| img_mars += "<li><img #{img_properties} src = #{v}></li>\n#{tab}" if k == "img_src"}
     end
     return img_mars

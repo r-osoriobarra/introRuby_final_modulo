@@ -2,7 +2,7 @@ require "uri"
 require "net/http"
 require "json"
 
-
+#metodo request
 def request(address, api_key)
 
     url = URI("#{address}&api_key=#{api_key}")
